@@ -19,7 +19,6 @@ class SqLiteHelper {
           ! This is Our Note Table look Like;
           Id | Tittle | Date | Priority | Status
           0    "  "     "  "    "   "      "  "
-
           1    "  "     "  "    "   "      "  "
    */
 
