@@ -39,7 +39,7 @@ class _CreateNotesScreenState extends State<CreateNotesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GestureDetector(
-        onTap: () {},
+        onTap: () => FocusScope.of(context).unfocus(),
         child: SingleChildScrollView(
           child: Container(
               padding: const EdgeInsets.symmetric(
@@ -63,7 +63,7 @@ class _CreateNotesScreenState extends State<CreateNotesScreen> {
                     height: 20.0,
                   ),
                   const Text(
-                    "Add Note",
+                    'add Note',
                     style: TextStyle(
                         color: Colors.deepPurple,
                         fontSize: 20.0,

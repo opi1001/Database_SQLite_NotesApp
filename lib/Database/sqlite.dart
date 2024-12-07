@@ -26,7 +26,7 @@ class SqLiteHelper {
     if (_db == null) {
       db = await _initDb();
     }
-    return _db;
+    return null;
   }
 
   Future<Database> _initDb() async {
